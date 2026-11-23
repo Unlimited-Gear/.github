@@ -35,16 +35,20 @@ Issue / PR テンプレート、CONTRIBUTING、SECURITY はこの `.github` リ�
 
 ### ラベル（全リポジトリ共通）
 
-| ラベル | 意味 |
-| --- | --- |
-| `bug` | 不具合 |
-| `enhancement` | 新機能・改善 |
-| `task` | 作業（設定、調査など） |
-| `documentation` | ドキュメント |
-| `priority: high` | 優先して対応 |
-| `blocked` | 他の作業や回答待ちで止まっている |
-| `question` | 相談・質問 |
-| `good first issue` | 新しく入った人向け |
+| ラベル | 意味 | 色 |
+| --- | --- | --- |
+| `bug` | 不具合 | `#d73a4a` |
+| `enhancement` | 新機能・改善 | `#a2eeef` |
+| `task` | 作業（設定、調査など） | `#fbca04` |
+| `documentation` | ドキュメント | `#0075ca` |
+| `priority: high` | 優先して対応 | `#b60205` |
+| `blocked` | 他の作業や回答待ちで止まっている | `#000000` |
+| `question` | 相談・質問 | `#d876e3` |
+| `good first issue` | 新しく入った人向け | `#7057ff` |
+| `duplicate` | 既存の Issue と重複（元の Issue 番号をコメントして閉じる） | `#cfd3d7` |
+| `wontfix` | 対応しないと決めた（理由をコメントして閉じる） | `#ffffff` |
+
+GitHub の既定ラベルと同じ名前のものは、既定の色をそのまま使います。
 
 ## 4. 秘密情報
 

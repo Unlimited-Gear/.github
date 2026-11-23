@@ -6,8 +6,8 @@ VALORANT を中心に活動する e-Sports チーム **Unlimited Gear** の開�
 
 ## プロジェクト
 
-| 名前 | 内容 |
-| --- | --- |
-| ULG大会運営DiscordBOT | VALORANT 大会の運営をスムーズにする Discord BOT（開発中） |
+| 名前 | 内容 |ステータス|
+| --- | --- | --- |
+| ULG大会運営DiscordBOT | VALORANT 大会の運営をスムーズにする Discord BOT|開発中|
 
 <!-- プロジェクトが増えたら上の表に追記してください -->

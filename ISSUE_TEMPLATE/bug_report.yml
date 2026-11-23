@@ -1,0 +1,36 @@
+name: バグ報告
+description: 期待どおりに動かない不具合を報告します
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 何が起きたか
+      description: 実際に起きたことを書いてください。スクリーンショットがあれば貼ってください。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1. /xxx コマンドを実行
+        2. ○○ボタンを押す
+        3. エラーが出る
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 本来どうなるべきか
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 環境
+      description: サーバー名、本番/テスト、バージョンなど
+  - type: markdown
+    attributes:
+      value: "⚠️ トークン・パスワード・個人情報は貼らないでください。"

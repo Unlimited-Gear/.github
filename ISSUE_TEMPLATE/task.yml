@@ -1,0 +1,21 @@
+name: タスク
+description: 開発・ドキュメント・設定などの作業
+labels: ["task"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: やること
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了の条件
+      placeholder: |
+        - [ ] ...
+  - type: input
+    id: related
+    attributes:
+      label: 関連 Issue / ストーリー
+      placeholder: "#12"

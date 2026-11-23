@@ -35,20 +35,20 @@ Issue / PR テンプレート、CONTRIBUTING、SECURITY はこの `.github` リ�
 
 ### ラベル（全リポジトリ共通）
 
-| ラベル | 意味 | 色 |
+| ラベル | 色 | 意味 |
 | --- | --- | --- |
-| `bug` | 不具合 | `#d73a4a` |
-| `enhancement` | 新機能・改善 | `#a2eeef` |
-| `task` | 作業（設定、調査など） | `#fbca04` |
-| `documentation` | ドキュメント | `#0075ca` |
-| `priority: high` | 優先して対応 | `#b60205` |
-| `blocked` | 他の作業や回答待ちで止まっている | `#000000` |
-| `question` | 相談・質問 | `#d876e3` |
-| `good first issue` | 新しく入った人向け | `#7057ff` |
-| `duplicate` | 既存の Issue と重複（元の Issue 番号をコメントして閉じる） | `#cfd3d7` |
-| `wontfix` | 対応しないと決めた（理由をコメントして閉じる） | `#ffffff` |
+| `bug` | `#d73a4a` | 不具合 |
+| `enhancement` | `#a2eeef` | 新機能・改善 |
+| `task` | `#fbca04` | 作業（設定、調査など） |
+| `documentation` | `#0075ca` | ドキュメント |
+| `priority: high` | `#b60205` | 優先して対応 |
+| `blocked` | `#d93f0b` | 他の作業や回答待ちで止まっている |
+| `question` | `#d876e3` | 相談・質問 |
+| `good first issue` | `#7057ff` | 新しく入った人向け |
+| `duplicate` | `#cfd3d7` | 既存の Issue と重複（元の Issue 番号をコメントして閉じる） |
+| `wontfix` | `#ffffff` | 対応しないと決めた（理由をコメントして閉じる） |
 
-GitHub の既定ラベルと同じ名前のものは、既定の色をそのまま使います。
+赤系＝問題・急ぎ、黄・オレンジ系＝作業・停止中、青系＝機能・ドキュメント、灰・白＝対応せずに閉じるもの、と色で分けています。
 
 ## 4. 秘密情報
 
